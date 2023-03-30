@@ -1,4 +1,4 @@
-# H0mebrEw stUFf
+# Apple Homebrew tools
 homebrew tools, everything here is considered beta
 
 
