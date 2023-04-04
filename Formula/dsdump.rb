@@ -8,7 +8,7 @@ class Dsdump < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.4.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.5.tar.gz"
 
       def install
         bin.install "dsdump"
