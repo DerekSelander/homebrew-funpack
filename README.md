@@ -18,4 +18,12 @@ brew tap derekselander/funpack
 brew install derekselander/funpack/dipc
 brew install derekselander/funpack/dinfo
 brew install derekselander/funpack/dsdump
+brew install derekselander/funpack/mscan
+```
+
+### mscan
+mscan is a c++ lldb plugin designed to search for memory. Once installed find the location of mscan and put the path in your ~/.lldbinit file
+
+```
+echo "plugin load \"`which mscan`\"" >> ~/.lldbinit
 ```
