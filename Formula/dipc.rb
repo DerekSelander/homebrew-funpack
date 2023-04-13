@@ -8,7 +8,7 @@ class Dipc < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.12.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.13.tar.gz"
 
       def install
         bin.install "dipc"
