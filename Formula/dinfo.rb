@@ -8,7 +8,7 @@ class Dinfo < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.13.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.14.tar.gz"
 
       def install
         bin.install "dinfo"
