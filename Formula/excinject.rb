@@ -7,7 +7,7 @@ class Excinject < Formula
   depends_on :macos
 
   on_macos do
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.26.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.0.14.tar.gz"
 
       def install
         bin.install "excinject"
