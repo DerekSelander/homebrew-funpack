@@ -1,5 +1,17 @@
 # Apple Homebrew tools
-homebrew tools, everything here is considered beta
+homebrew tools, everything here is considered beta, tool options can change without notice, features can break, you could see "WTF Derek" in console output, etc. But there is some neat stuff now that you found this repo.
+
+## dipc
+The missing [XPoCe](http://newosxbook.com/tools/XPoCe2.html) for ARM64
+
+## dinfo 
+Query process information/dump assemble for processes at runtime 
+
+## dsdump
+Updated binaries from [here](https://github.com/DerekSelander/dsdump)
+
+## mscan
+A C++ LLDB plugin that can scan memory for strings or byte sequences 
 
 
 ## Setup 
