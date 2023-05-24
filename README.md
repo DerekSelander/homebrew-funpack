@@ -1,5 +1,5 @@
 # Apple Homebrew tools
-homebrew tools, everything here is considered beta, tool options can change without notice, features can break, you could see "WTF Derek" in console output, etc. But there is some neat stuff now that you found this repo.
+homebrew tools, everything here is considered beta, tool options can change without notice, features can break, you could see "WTF Derek" in console output, etc. Most of these tools will only work for arm64 hardware.  I am toying with the idea of doing x64, but tbd.
 
 ## dipc
 The missing [XPoCe](http://newosxbook.com/tools/XPoCe2.html) for ARM64
@@ -15,11 +15,16 @@ A C++ LLDB plugin that can scan memory for strings or byte sequences
 
 
 ## Setup 
-In order to make the most of these tools, you should disable SIP on your macOS machine. You should also enable experimental 3rd party ARM64e support (for these tools). Not doing so will crash Apple applications. To enable experimental arm64e support do the following:
+In order to make the most of these tools, you need to disable SIP on your macOS machine. If you plan on introspecting Apple executables, you also need to enable experimental 3rd party ARM64e support. Not doing so will crash Apple applications. To enable experimental arm64e support do the following after disabling SIP:
 
 ```bash
 sudo nvram boot-args=-arm64e_preview_abi
 ``` 
+
+If you don't want to disable Apple executables and only introspect 3rd party developers, you can just pull out the arm64 slice via a:
+```
+lipo -o /tmp/dipc.arm64 -thin arm64 `which dipc` 
+```
 
 ## Install
 
