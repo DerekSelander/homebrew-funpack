@@ -8,14 +8,14 @@ class Dsdump < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.2.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.3.tar.gz"
 
       def install
         bin.install "dsdump"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.2.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.3.tar.gz"
       def install
         bin.install "dsdump"
       end
