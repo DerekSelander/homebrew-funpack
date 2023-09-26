@@ -7,7 +7,7 @@ class Mscan < Formula
   depends_on :macos
 
   on_macos do
-      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.3.tar.gz"
+      url "https://github.com/DerekSelander/homebrew-funpack/archive/refs/tags/0.1.4.tar.gz"
 
       def install
         bin.install "mscan"
