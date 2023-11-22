@@ -5,7 +5,14 @@ homebrew tools, everything here is considered beta, tool options can change with
 The missing [XPoCe](http://newosxbook.com/tools/XPoCe2.html) for ARM64
 
 ## dinfo 
+
 Query process information/dump assemble for processes at runtime 
+ 
+[dinfo_help]::
+```bash
+
+```
+
 
 ## dsdump
 Updated binaries from [here](https://github.com/DerekSelander/dsdump)
